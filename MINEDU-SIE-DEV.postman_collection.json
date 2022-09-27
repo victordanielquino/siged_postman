@@ -1,0 +1,936 @@
+{
+	"info": {
+		"_postman_id": "2e6fa2b1-b6a4-40e9-96f4-00a106a2a852",
+		"name": "MINEDU-SIE-DEV",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23264090"
+	},
+	"item": [
+		{
+			"name": "MS-ADMINISTRATION",
+			"item": [
+				{
+					"name": "Usuario",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/usuario/20591",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario",
+										"20591"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findOneByUsename",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/usuario/20591",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario",
+										"20591"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteOne",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Usuario - Rol",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/usuario/20591",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario",
+										"20591"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findOneByUsename",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/usuario/20591",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario",
+										"20591"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteOne",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Auth",
+					"item": [
+						{
+							"name": "signIn",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/usuario",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"usuario"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "getProfile",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4Mjg0NiIsInVzZXJuYW1lIjoiNzIwOTc1ODgiLCJyb2xlcyI6WyJhZG1pbiJdLCJpYXQiOjE2NjM3MTIyMzIsImV4cCI6MTY2MzcxNDAzMn0.0nKk6rEUoW12beN0m8aVCSiZmMoGPwNvSlJdn1GiZ0U",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/auth/profile",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"auth",
+										"profile"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "hello",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgyODQ2LCJ1c2VybmFtZSI6IjcyMDk3NTg4Iiwicm9sZXMiOlsiYWRtaW4iXSwiaWF0IjoxNjYzODczNzEyLCJleHAiOjE2NjM4NzU1MTJ9.z54xhjZj_5J0OfyOvZ302U6MxfK9NqiNl-A17crdFn8",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"username\": \"6944974\",\n    \"password\":\"6944974\",\n    \"activo\": true,\n    \"personaId\":28491080,\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/auth/hello",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"auth",
+										"hello"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CensoTipo",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/censo-tipo/0",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"censo-tipo",
+										"0"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/censo-tipo",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"censo-tipo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"censo\":\"censo aux\",\n    \"comentario\":\"comentario aux\",\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/censo-tipo",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"censo-tipo"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"comentario\":\"comentario 1\",\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/censo-tipo/1",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"censo-tipo",
+										"1"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GeneroTipo",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/genero-tipo/0",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"genero-tipo",
+										"0"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"genero\":\"sin definir\",\n    \"comentario\":\"sin comentario\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/genero-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"genero-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"genero\":\"sin definir\",\n    \"comentario\":\"sin comentario\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/genero-tipo/3",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"genero-tipo",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/genero-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"genero-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "AreaGeograficaTipo",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/1",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"areaGeografica\":\"sin des\",\n    \"comentario\":\"sin comentario\",\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"comentario\":\"sin comentario\",\n    \"usuarioId\":1\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/1",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "UnidadTerritorialTipo",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/unidad-territorial-tipo/1",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"unidad-territorial-tipo",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "UnidadTerritorial",
+					"item": [
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/unidad-territorial/8",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"unidad-territorial",
+										"8"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"lugar\": \"Santa Cruz\",\n    \"codigo\": \"Santa Cruz\",\n    \"poblacion\": 0,\n    \"viviendas\": 0,\n    \"comentario\": \"\",\n    \"unidadTerritorialTipoId\": 1,\n    \"unidadTerritorialId\": 1,\n    \"censoTipoId\": 1,\n    \"areaGeograficaTipoId\": 0,\n    \"usuarioId\":0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/unidad-territorial",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"unidad-territorial"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"lugar\": \"Santa Cruz\",\n    \"codigo\": \"Santa Cruz\",\n    \"poblacion\": 0,\n    \"viviendas\": 0,\n    \"comentario\": \"\",\n    \"unidadTerritorialTipoId\": 1,\n    \"unidadTerritorialId\": 1,\n    \"censoTipoId\": 1,\n    \"areaGeograficaTipoId\": 0,\n    \"usuarioId\":0\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/unidad-territorial",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"unidad-territorial"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Persona",
+					"item": [
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/persona",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"persona"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findOne",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/persona/28491080",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"persona",
+										"28491080"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createOne",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n        \"ci\": 12449623,\n        \"complemento\": \"12\",\n        \"paterno\": \"12345\",\n        \"materno\": \"12345\",\n        \"nombre\": \"12345\",\n        \"fechaNac\": \"2007-04-20\",\n        \"codigoRude\": \"100000000000010406\",\n        \"generoTipo\": null,\n        \"estadoCivilTipo\": null,\n        \"sangreTipo\": null,\n        \"idiomaTipo\": null,\n        \"segipTipo\": null,\n        \"expedidoUnidadTerritorial\": null,\n        \"nacimientoUnidadTerritorial\": null,\n        \"nacimientoOficialia\": \"214013\",\n        \"nacimientoLibro\": \"4-2007\",\n        \"nacimientoPartida\": \"90\",\n        \"nacimientoFolio\": \"90\",\n        \"carnetIbc\": null,\n        \"pasaporte\": \"\",\n        \"libretaMilitar\": null,\n        \"dobleNacionalidad\": false,\n        \"codigoRda\": null,\n        \"nacimientoLocalidad\": \"EL ALTO\",\n        \"observacion\": null,\n        \"tieneDiscapacidad\": false,\n        \"estudianteId\": 500246\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "updateOne",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "{{host-dev}}/area-geografica-tipo/",
+									"host": [
+										"{{host-dev}}"
+									],
+									"path": [
+										"area-geografica-tipo",
+										""
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
